@@ -206,8 +206,8 @@ def scrape_mars_hemispheres():
 
         
         # Return mars_data dictionary 
-
         return mars_info
+        
     finally:
 
         browser.quit()
